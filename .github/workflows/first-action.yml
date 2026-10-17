@@ -1,0 +1,10 @@
+name: First Workflow
+on: workflow_dispatch
+jobs: 
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Welcome to GitHub Actions
+        run: "Hello GitHub Actions!"
+      - name: Print Finished
+        run: "Executed Actions!..Finished Task"
